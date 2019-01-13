@@ -58,6 +58,8 @@ def main(embedding_file_name, verification_file_name):
 if __name__ == "__main__":
     if len(sys.argv) != 3:
         print('Usage: python wordsim_evaluate.py embedding_file_name.txt verification_file_name.csv')
-    embedding_file_name, verification_file_name = sys.argv[1], sys.argv[2]
+        sys.exit(1)
 
+    embedding_file_name, verification_file_name = sys.argv[1], sys.argv[2]
     main(embedding_file_name, verification_file_name)
+
