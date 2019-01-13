@@ -1,0 +1,5 @@
+Word 1,Word 2,Human (mean)
+a,b,9
+b,c,8
+c,d,7
+c,z,9
