@@ -28,7 +28,6 @@ def main(embedding_file_name, verification_file_name):
         lines.readline()  # Abandon header
 
         for line in lines:
-            split = line.split(',')
             word1, word2, actual_similarity = line.split(',')
 
             if word1 not in embeddings:
